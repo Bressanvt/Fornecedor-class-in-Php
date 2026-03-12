@@ -23,6 +23,13 @@ echo $fornecedor->getEmail();
 $fornecedor->setEmail("EmpresaX@email.com");
 
 echo $fornecedor->getEmail();
+//-------------------------//
+echo $fornecedor->getTelefone();
+    echo "<br>";
 
+$fornecedor->setTelefone("(14)99741-0000");
+
+echo $fornecedor->getTelefone();
+//-------------------------//
 
 ?>
